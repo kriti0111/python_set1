@@ -1,0 +1,9 @@
+t= raw_input()
+r= raw_input()
+s= raw_input()
+if(int(t)>int(s) and int(t)>int(r)) :
+	print t+"is largest"
+elif(int(s)>int(r)) :
+    print s+"is largest"
+else :
+	print r+"is largest"

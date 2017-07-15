@@ -1,0 +1,7 @@
+t= raw_input()
+if((t>='a' and t<='z') or (t>='A' and t<='Z')) :
+	print "alphabet"
+elif(int(t)>=0 and int(t)<=9) :
+    print "number"
+else :
+    print "special character"

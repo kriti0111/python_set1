@@ -1,0 +1,12 @@
+def numbers_to_strings(argument):
+    switcher = {
+        'a': "vowel",
+        'e': "vowel",
+        'i': "vowel",
+        'o': "vowel",
+        'u': "vowel",	
+    }
+    return switcher.get(argument, "nothing")
+a= raw_input()    
+t= numbers_to_strings(a)
+print t

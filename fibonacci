@@ -1,0 +1,15 @@
+fibo =[]
+n = raw_input()
+f0=0
+f1=1
+fibo.append(f0)
+fibo.append(f1)
+sum = f0+f1
+fibo.append(sum)
+
+for i in range (1,int(n)):
+	f0=f1;
+	f1=i;
+	sum = f0+f1
+	fibo.append(sum)
+print fibo	

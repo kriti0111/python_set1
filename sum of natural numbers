@@ -1,0 +1,4 @@
+n = raw_input()
+sum = (int(n)*(int(n)+1))/2
+print sum
+	
